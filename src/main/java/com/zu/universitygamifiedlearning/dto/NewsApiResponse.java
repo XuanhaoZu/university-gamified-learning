@@ -12,7 +12,7 @@ public class NewsApiResponse {
 
     public void setArticles(Article[] articles) {
         this.articles = articles;
-    }
+    } //test
 
     @JsonIgnoreProperties(ignoreUnknown = true)
     public static class Article {
